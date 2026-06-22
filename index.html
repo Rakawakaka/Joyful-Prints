@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Print Showcase</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">🖨️</span>
+                <span class="logo-text">PrintShowcase</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
+                <li><a href="#products" class="nav-link" data-section="products">Products</a></li>
+                <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+                <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section home-section active">
+        <div class="hero">
+            <div class="hero-content">
+                <h1>Welcome to PrintShowcase</h1>
+                <p>Discover amazing 3D printed creations</p>
+                <button class="cta-button" onclick="navigateTo('products')">Explore Prints</button>
+            </div>
+            <div class="hero-visual">
+                <div class="cube"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="section products-section">
+        <div class="section-container">
+            <h2>Our 3D Prints</h2>
+            
+            <!-- Filter Section -->
+            <div class="filter-section">
+                <h3>Filter by Type</h3>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="miniature">Miniatures</button>
+                    <button class="filter-btn" data-filter="functional">Functional</button>
+                    <button class="filter-btn" data-filter="decorative">Decorative</button>
+                    <button class="filter-btn" data-filter="toy">Toys</button>
+                    <button class="filter-btn" data-filter="jewelry">Jewelry</button>
+                </div>
+            </div>
+
+            <!-- Products Grid -->
+            <div class="products-grid" id="productsGrid">
+                <!-- Products will be dynamically loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="section-container">
+            <h2>About PrintShowcase</h2>
+            <div class="about-content">
+                <p>PrintShowcase is a dedicated platform for displaying high-quality 3D printed creations. From intricate miniatures to functional household items, we showcase the versatility and beauty of 3D printing technology.</p>
+                <div class="features">
+                    <div class="feature">
+                        <span class="feature-icon">⚙️</span>
+                        <h3>Quality Prints</h3>
+                        <p>Every print is crafted with precision and care</p>
+                    </div>
+                    <div class="feature">
+                        <span class="feature-icon">🎨</span>
+                        <h3>Diverse Designs</h3>
+                        <p>Wide variety of types and styles to explore</p>
+                    </div>
+                    <div class="feature">
+                        <span class="feature-icon">🚀</span>
+                        <h3>Innovation</h3>
+                        <p>Constantly creating new and unique pieces</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="section-container">
+            <h2>Get In Touch</h2>
+            <div class="contact-content">
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <h3>Email</h3>
+                        <p>hello@printshowcase.com</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>Social Media</h3>
+                        <p>@printshowcase on all platforms</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 PrintShowcase. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
