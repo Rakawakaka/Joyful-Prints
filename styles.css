@@ -147,7 +147,7 @@ body {
 .cube {
     width: 200px;
     height: 200px;
-    background: [img]https://chat.google.com/u/1/api/get_attachment_url?url_type=FIFE_URL&content_type=image%2Fpng&attachment_token=AOo0EEV4LxD4IIyiuMOeDaa54Hx7I%2B4FNs%2BsfiL6SBteDfs8gjr2l2scUl%2FmbQUnma5QW5T3ab1n8V6krTQPXfMk8qP%2Bc5TQhquTp8PQcgvNdpBoLZi2PcG8M9FyRq%2BP%2BV2uTe6u6G4QyB%2F78jPFTdMYnkdfcvHpnUjNHceU3zj4gwZ3QkQ%2FqoVhGpuTZVIi7j9qd%2BWIjy4cRsc87sWtWjhtrFqNgAngUUHvHxcDa4R%2BFe5G5Yy7aPPZX1wqES48gnVP7fne%2BU%2B%2FH6EH3ZkDHC4reSHAj%2BFAw2vi8p8NKuqxBX94Gxu6Ksj%2FZxjCEEkFxg05PbggZtEmGYCsv9qAYfNzuypKhw7WsxbWSeIw0oKpYjRPkA2YkCgoSnq6G%2BRPf%2F01gsRz%2FdGiXxmLixOPlYz0%2ByQfRsBo6hEXZT65WtthvPD9ekkBk1XWZEQ9T8RYvRp3wFSWhMrzg869CVijjewqTT1HSfZBgCQ69GxUD5Lt5iC4Dri0MWy4Hlge51udLQUW1TVCsES73c%2FUJhp9yyzxnYZOAz%2BXHiWKYBEflDeGUQn7qPjavwg2ndsnKESyaA%2F1P6ZLZB74dZv1TSE783njJyOXqLrCSdAF6svTWppkBMn8SO9NUiGZ1%2BMEJrApFEXwUB9DvTxYZ94MNS9hwMeGEXs3rw%3D%3D&allow_caching=true&sz=w512&authuser=1[/img]
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
     border-radius: 20px;
     animation: float 3s ease-in-out infinite;
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
