@@ -103,11 +103,13 @@ body {
     justify-content: center;
     width: 100%;
     gap: 4rem;
+    flex-direction: column;
 }
 
 .hero-content {
     flex: 1;
     text-align: center;
+    width: 100%;
 }
 
 .hero-content h1 {
@@ -115,12 +117,6 @@ body {
     color: white;
     margin-bottom: 1rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-}
-
-.hero-content p {
-    font-size: 1.5rem;
-    color: #e0e0e0;
-    margin-bottom: 2rem;
 }
 
 .hero-content p {
